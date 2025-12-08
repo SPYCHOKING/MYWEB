@@ -2,3 +2,6 @@ Django==4.2
 gunicorn
 whitenoise
 setuptools
+Django==4.2
+gunicorn
+whitenoise
