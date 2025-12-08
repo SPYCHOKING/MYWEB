@@ -40,7 +40,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Security Settings
 SECURE_CONTENT_TYPE_NOSNIFF = True
 SECURE_BROWSER_XSS_FILTER = True
-X_FRAME_OPTIONS = 'SAMEORIGIN'
+X_FRAME_OPTIONS = 'ALLOWALL'  # Required for Replit iframe preview
 SECURE_REFERRER_POLICY = 'strict-origin-when-cross-origin'
 
 # Session Security
@@ -152,7 +152,5 @@ STORAGES = {
 }
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-X_FRAME_OPTIONS = 'ALLOWALL'
 
 
