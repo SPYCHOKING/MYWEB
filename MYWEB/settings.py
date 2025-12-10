@@ -28,7 +28,7 @@ SECRET_KEY = 'nreye___c!xs8icmzla!=)9b922w%n6xsv&_%r!qs*6azvsgh2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['prowebsec.in','www.prowebsec.in','q344agw0.up.railway.app']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.replit.dev',
